@@ -19,8 +19,10 @@ logs
 .idea
 
 # Local env files
-.env
 .env.*
 !.env.example
 
 pnpm-lock.yaml
+
+# 要提交项目key值
+# .env
