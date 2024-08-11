@@ -1,5 +1,5 @@
 export default eventHandler(async (event) => {
-  const { pathname } = event.context.params || {}
+	const { pathname } = event.context.params || {};
 
-  return hubBlob().serve(event, pathname)
-})
+	return hubBlob().serve(event, pathname);
+});

@@ -9,6 +9,7 @@
     "db:generate": "drizzle-kit generate",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
+    "prettier": "prettier --write .",
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {

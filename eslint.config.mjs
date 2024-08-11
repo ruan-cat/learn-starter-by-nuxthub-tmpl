@@ -102,6 +102,7 @@ export default withNuxt(
 		},
 
 		eslintConfigPrettier,
+		// @ts-ignore 不明白为什么会报错 这里忽略类型检查
 		eslintPluginPrettierRecommended,
 	),
 );
