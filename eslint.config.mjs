@@ -20,14 +20,15 @@ export default withNuxt(
 			/**
 			 * @see https://stackoverflow.com/questions/65137939/typescript-eslint-throws-cannot-read-file-tsconfig-json-in-every-project-i-s
 			 */
-			typescript: {
-				tsconfigPath: "./tsconfig.json",
-				parserOptions: {
-					project: "tsconfig.json",
-					sourceType: "module",
-					tsconfigRootDir: __dirname,
-				},
-			},
+			// 展示不使用 因为mjs没有 __dirname 的配置；
+			// typescript: {
+			// 	tsconfigPath: "./tsconfig.json",
+			// 	parserOptions: {
+			// 		project: "tsconfig.json",
+			// 		sourceType: "module",
+			// 		tsconfigRootDir: __dirname,
+			// 	},
+			// },
 
 			vue: true,
 
