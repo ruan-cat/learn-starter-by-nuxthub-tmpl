@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     // 不使用blob 不想开通 配置银行卡很麻烦
     blob: false,
     cache: true,
+    projectKey: "starter-by-nuxt-h4a5",
   },
   nitro: {
     experimental: {
