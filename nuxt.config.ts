@@ -19,6 +19,11 @@ export default defineNuxtConfig({
 		experimental: {
 			// Enable Server API documentation within NuxtHub
 			openAPI: true,
+
+			/**
+			 * @see https://hub.nuxt.com/docs/recipes/drizzle#seed-the-database-optional
+			 */
+			tasks: true,
 		},
 	},
 	// Development

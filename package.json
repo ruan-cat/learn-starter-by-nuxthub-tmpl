@@ -9,6 +9,7 @@
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
     "db:migrate": "drizzle-kit migrate",
+    "db:drop": "drizzle-kit drop",
     "db:push": "drizzle-kit push",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
@@ -38,6 +39,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.3.3",
     "prettier-plugin-lint-md": "^1.0.1",
+    "type-plus": "^7.6.2",
     "typescript": "5.5.4",
     "vue-tsc": "^2.0.29",
     "wrangler": "3.69.1"

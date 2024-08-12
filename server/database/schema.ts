@@ -9,7 +9,10 @@ export const todos = sqliteTable("todos", {
 });
 
 export const product = sqliteTable("product", {
+	/** 商品id */
 	productId: integer("product_id").primaryKey(),
 	sales: integer("sales").notNull().default(0),
-	skuId: integer("sku_id").notNull(),
+	skuId: integer("sku_id"),
+	completed: integer("completed").notNull().default(0),
+	createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
 });
