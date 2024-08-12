@@ -11,4 +11,7 @@ export default {
 		databaseId: "22850cc9-7519-4d48-bf90-ea886519f86f",
 		token: "SFJXyE38Aa8qcMfLpCHueuYB4PAgyN_O14d0vkn7",
 	},
+	migrations: {
+		prefix: "none",
+	},
 } satisfies Config;
