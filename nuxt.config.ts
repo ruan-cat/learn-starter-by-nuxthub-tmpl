@@ -16,6 +16,8 @@ export default defineNuxtConfig({
 		projectKey: "starter-by-nuxt-h4a5",
 	},
 	nitro: {
+		/** 该配置实际上无意义 这是预设的 */
+		preset: "cloudflare-pages",
 		experimental: {
 			// Enable Server API documentation within NuxtHub
 			openAPI: true,
