@@ -14,6 +14,8 @@ export default defineNuxtConfig({
 		blob: false,
 		cache: true,
 		projectKey: "starter-by-nuxt-h4a5",
+		// FIXME: 为什么这个配置不生效？
+		// remote: true,
 	},
 	nitro: {
 		/** 该配置实际上无意义 这是预设的 */
