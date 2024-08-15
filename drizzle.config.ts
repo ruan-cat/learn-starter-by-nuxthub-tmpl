@@ -1,4 +1,10 @@
+import { config } from "dotenv";
 import type { Config } from "drizzle-kit";
+
+/**
+ * @see https://orm.drizzle.team/learn/tutorials/drizzle-with-neon
+ */
+config({ path: ".env" });
 
 /**
  * 面向 cloudflare D1 的 drizzle 配置
@@ -24,14 +30,19 @@ const drizzleConfigWithCloudflareD1: Config = {
  * 面向 neon 的 drizzle 配置
  */
 const drizzleConfigWithNeon: Config = {
-	schema: "./server/database/schema.ts",
-	out: "./server/database/migrations",
+	schema: "./server/database/neon/schema.ts",
+	out: "./server/database/neon/migrations",
 
 	dialect: "postgresql",
+
+	dbCredentials: {
+		url: process.env.DATABASE_URL!,
+	},
 
 	migrations: {
 		prefix: "none",
 	},
 };
 
-export default drizzleConfigWithCloudflareD1;
+// export default drizzleConfigWithCloudflareD1;
+export default drizzleConfigWithNeon;
