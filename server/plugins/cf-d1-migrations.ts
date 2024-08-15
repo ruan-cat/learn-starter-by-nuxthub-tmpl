@@ -5,7 +5,7 @@ export default defineNitroPlugin(async () => {
 	if (!import.meta.dev) return;
 
 	onHubReady(async () => {
-		await migrate(useDB(), { migrationsFolder: "server/database/migrations" })
+		await migrate(useDB(), { migrationsFolder: "server/database/cloudflare-D1/migrations" })
 			.then(() => {
 				consola.success("Database migrations done");
 			})

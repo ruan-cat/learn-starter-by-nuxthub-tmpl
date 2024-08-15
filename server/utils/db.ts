@@ -1,5 +1,5 @@
 import { drizzle } from "drizzle-orm/d1";
-import * as schema from "../database/schema";
+import * as schema from "../database/cloudflare-D1/schema";
 
 export { sql, eq, and, or } from "drizzle-orm";
 

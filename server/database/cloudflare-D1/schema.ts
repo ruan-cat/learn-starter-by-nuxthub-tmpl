@@ -2,7 +2,7 @@ import { sqliteTable, text, integer, sqliteTableCreator } from "drizzle-orm/sqli
 
 // 有疑惑 可能是node无法直接识别nuxt的别名
 // import { dbTableNamePrefix } from "@@/utils/index";
-import { dbTableNamePrefix } from "./utils/index";
+import { dbTableNamePrefix } from "../utils/index";
 
 /**
  * D1 数据表名称构造器
