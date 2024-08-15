@@ -37,6 +37,7 @@
     "eslint-plugin-format": "^0.1.2",
     "eslint-plugin-jsdoc": "^48.11.0",
     "eslint-plugin-prettier": "^5.2.1",
+    "neonctl": "^1.36.0",
     "prettier": "^3.3.3",
     "prettier-plugin-lint-md": "^1.0.1",
     "type-plus": "^7.6.2",
