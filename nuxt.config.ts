@@ -29,6 +29,11 @@ export default defineNuxtConfig({
 			 */
 			tasks: true,
 		},
+
+		// 暂时不考虑nitro去连接数据库，用ORM去实现。
+		// database: {
+		// 	default: {},
+		// },
 	},
 	// Development
 	devtools: { enabled: true },
