@@ -11,6 +11,7 @@
     "db:migrate": "drizzle-kit migrate",
     "db:drop": "drizzle-kit drop",
     "db:push": "drizzle-kit push",
+    "connect-db-with-local-psql": "neon connection-string dev/alex --database-name learn-neondb --psql",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "prettier": "prettier --write .",
