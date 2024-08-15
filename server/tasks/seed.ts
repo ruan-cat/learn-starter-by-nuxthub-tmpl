@@ -30,7 +30,7 @@ export default defineTask({
 	async run() {
 		console.log("Running DB seed task...");
 
-		await useDrizzle().insert(tables.product).values(initProduct);
+		await useCloudflareD1DB().insert(tables.product).values(initProduct);
 		return { result: "success" };
 	},
 });
