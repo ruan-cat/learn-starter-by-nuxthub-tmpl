@@ -18,7 +18,6 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^0.9.4",
     "@nuxt/eslint": "^0.5.0",
     "dotenv": "^16.4.5",
     "drizzle-kit": "^0.23.2",
