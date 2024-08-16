@@ -6,17 +6,23 @@ export default defineNuxtConfig({
 	future: { compatibilityVersion: 4 },
 	// Nuxt Modules
 	// https://nuxt.com/modules
-	modules: ["@nuxthub/core", "@nuxt/eslint"],
-	hub: {
-		database: true,
-		kv: true,
-		// 不使用blob 不想开通 配置银行卡很麻烦
-		blob: false,
-		cache: true,
-		projectKey: "starter-by-nuxt-h4a5",
-		// FIXME: 为什么这个配置不生效？
-		// remote: true,
-	},
+	modules: [
+		// 不直接使用nuxthub，避免直接使用cloudflare
+		// "@nuxthub/core",
+		"@nuxt/eslint",
+	],
+
+	// 不使用。
+	// hub: {
+	// 	database: true,
+	// 	kv: true,
+	// 	// 不使用blob 不想开通 配置银行卡很麻烦
+	// 	blob: false,
+	// 	cache: true,
+	// 	projectKey: "starter-by-nuxt-h4a5",
+	// 	// FIXME: 为什么这个配置不生效？
+	// 	// remote: true,
+	// },
 	nitro: {
 		/** 该配置实际上无意义 这是预设的 */
 		preset: "cloudflare-pages",
