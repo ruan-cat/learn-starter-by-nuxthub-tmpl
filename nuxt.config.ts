@@ -25,7 +25,10 @@ export default defineNuxtConfig({
 	// },
 	nitro: {
 		/** 该配置实际上无意义 这是预设的 */
-		preset: "cloudflare-pages",
+		// preset: "cloudflare-pages",
+		// 尝试部署到vercel边缘运行时。
+		preset: "vercel-edge",
+
 		experimental: {
 			// Enable Server API documentation within NuxtHub
 			openAPI: true,
