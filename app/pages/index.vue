@@ -1,7 +1,7 @@
 <template>
 	<main>
-		<ImageGallery />
-		<RedirectsPanel />
+		<!-- <ImageGallery /> -->
+		<!-- <RedirectsPanel /> -->
 		<MessagesPanel />
 	</main>
 </template>
