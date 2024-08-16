@@ -16,7 +16,6 @@
 import { neon } from "@neondatabase/serverless";
 import { drizzle } from "drizzle-orm/neon-http";
 import { config } from "dotenv";
-// TODO:
 import * as schema from "../database/neon/schema";
 
 export { sql, eq, and, or } from "drizzle-orm";
