@@ -29,3 +29,5 @@ pnpm-lock.yaml
 
 # 忽略 drizzle-kit generate 生成命令默认生成的sql迁移构建文件
 server/database/**/*/migrations
+
+.vercel

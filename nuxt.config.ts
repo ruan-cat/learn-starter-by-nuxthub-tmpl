@@ -27,7 +27,10 @@ export default defineNuxtConfig({
 		/** 该配置实际上无意义 这是预设的 */
 		// preset: "cloudflare-pages",
 		// 尝试部署到vercel边缘运行时。
-		preset: "vercel-edge",
+		// 可以打包
+		preset: "vercel",
+		// FIXME: 出现莫名其妙的错误 这个预设似乎无效
+		// preset: "vercel-edge",
 
 		experimental: {
 			// Enable Server API documentation within NuxtHub
