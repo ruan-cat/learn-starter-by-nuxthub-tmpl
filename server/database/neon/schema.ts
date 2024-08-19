@@ -31,3 +31,24 @@ export const product = pgTable("product", {
 		.notNull()
 		.$onUpdate(() => new Date()),
 });
+
+/**
+ * 阮喵喵对象表 仅仅是用来学习如何实现单表的CURD写法。
+ *
+ * @description
+ * 尝试自己设计一个数据库表应该有的基础字段。
+ *
+ * @see https://developer.aliyun.com/article/1393401s
+ */
+export const ruancatObjTable = pgTable("ruancat_obj_table", {
+	id: integer("id").primaryKey(),
+	create_time: timestamp("create_time").notNull().defaultNow(),
+	modified_time: timestamp("modified_time")
+		.notNull()
+		.defaultNow()
+		.$onUpdate(() => new Date()),
+	version: integer("version"),
+	remark: text("remark"),
+	modified_by: text("modified_by"),
+	creator: text("creator"),
+});
