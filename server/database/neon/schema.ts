@@ -3,7 +3,7 @@
  * @see https://orm.drizzle.team/learn/tutorials/drizzle-with-neon
  */
 
-import { pgTable, text, integer, timestamp } from "drizzle-orm/pg-core";
+import { pgTable, text, integer, timestamp, varchar } from "drizzle-orm/pg-core";
 
 export const todos = pgTable("todos", {
 	id: integer("id").primaryKey(),
@@ -51,4 +51,7 @@ export const ruancatObjTable = pgTable("ruancat_obj_table", {
 	remark: text("remark"),
 	modified_by: text("modified_by"),
 	creator: text("creator"),
+	content: varchar("content", {
+		length: 128,
+	}).notNull(),
 });
