@@ -49,3 +49,10 @@ npx nuxthub deploy
 Then checkout your server logs, analaytics and more in the [NuxtHub Admin](https://admin.hub.nuxt.com).
 
 You can also deploy using [Cloudflare Pages CI](https://hub.nuxt.com/docs/getting-started/deploy#cloudflare-pages-ci).
+
+## 其他学习记录
+
+### 对单表做简单的 CURD 代码编写
+
+- https://drizzle.zhcndoc.com/learn/tutorials/drizzle-with-neon
+- https://hub.nuxt.com/docs/recipes/drizzle
