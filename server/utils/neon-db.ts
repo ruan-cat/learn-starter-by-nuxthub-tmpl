@@ -23,8 +23,7 @@ export { sql, eq, and, or } from "drizzle-orm";
 export const tables = schema;
 
 config({ path: ".env" }); // or .env.local
-// const sql = neon(process.env.DATABASE_URL);
-const sql = neon(process.env.DATABASE_URL!);
+const sql = neon(process.env.psql_database_url!);
 
 export function useNeonDB() {
 	return drizzle(sql, { schema });

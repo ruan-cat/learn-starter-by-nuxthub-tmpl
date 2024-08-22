@@ -50,6 +50,11 @@ Then checkout your server logs, analaytics and more in the [NuxtHub Admin](https
 
 You can also deploy using [Cloudflare Pages CI](https://hub.nuxt.com/docs/getting-started/deploy#cloudflare-pages-ci).
 
+## 部署到 vercel 平台内
+
+- [项目仪表盘](https://vercel.com/ruanzhongnans-projects/learn-starter-by-nuxthub-tmpl)
+- [项目默认 vercel 地址](https://learn-starter-by-nuxthub-tmpl.vercel.app)
+
 ## 其他学习记录
 
 ### 对单表做简单的 CURD 代码编写
