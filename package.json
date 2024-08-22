@@ -18,6 +18,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
+    "@element-plus/nuxt": "^1.0.9",
     "@neondatabase/serverless": "^0.9.4",
     "@nuxt/eslint": "^0.5.0",
     "dotenv": "^16.4.5",
