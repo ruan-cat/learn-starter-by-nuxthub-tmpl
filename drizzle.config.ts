@@ -36,7 +36,7 @@ const drizzleConfigWithNeon: Config = {
 	dialect: "postgresql",
 
 	dbCredentials: {
-		url: process.env.DATABASE_URL!,
+		url: process.env.psql_database_url!,
 	},
 
 	migrations: {
