@@ -3,5 +3,6 @@
 		<!-- <ImageGallery /> -->
 		<!-- <RedirectsPanel /> -->
 		<MessagesPanel />
+		<RuancatObjTable></RuancatObjTable>
 	</main>
 </template>

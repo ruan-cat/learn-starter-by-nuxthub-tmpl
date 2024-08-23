@@ -31,3 +31,6 @@ export function useNeonDB() {
 
 /** 商品 */
 export type Product = typeof schema.product.$inferSelect;
+
+export type RuancatObjInsert = typeof schema.ruancatObjTable.$inferInsert;
+export type RuancatObjSelect = typeof schema.ruancatObjTable.$inferSelect;
