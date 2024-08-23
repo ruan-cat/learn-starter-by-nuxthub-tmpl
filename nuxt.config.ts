@@ -10,7 +10,6 @@ export default defineNuxtConfig({
 		// 不直接使用nuxthub，避免直接使用cloudflare
 		// "@nuxthub/core",
 		"@nuxt/eslint",
-
 		/**
 		 * ```bash
 		 * npx nuxi@latest module add element-plus
@@ -18,6 +17,12 @@ export default defineNuxtConfig({
 		 * @see https://github.com/element-plus/element-plus-nuxt#installation
 		 */
 		"@element-plus/nuxt",
+
+		/**
+		 * npx nuxi module add @scalar/nuxt
+		 * @see https://github.com/scalar/scalar/blob/main/packages/nuxt/README.md
+		 */
+		"@scalar/nuxt",
 	],
 
 	// 不使用。
