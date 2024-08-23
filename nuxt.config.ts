@@ -70,6 +70,15 @@ export default defineNuxtConfig({
 		https: false,
 	},
 
+	/**
+	 * @see https://github.com/scalar/scalar/blob/main/packages/nuxt/README.md#configuration
+	 */
+	scalar: {
+		spec: {
+			url: "https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml",
+		},
+	},
+
 	vite: {
 		server: {
 			open: true,
